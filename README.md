@@ -6,6 +6,8 @@ A **production-ready** multilingual document Question-Answering system using Ret
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Tests Passing](https://img.shields.io/badge/tests-5%2F5%20passing-brightgreen.svg)](tests/)
 
+Click here for more [In-Depth Documentation](https://deepwiki.com/AyushDhimann/RAGging) and to chat with the codebase
+
 ## 🎯 Key Features
 
 - **🌐 Multilingual Support**: Process documents in English, Chinese, Hindi, Bengali, and Urdu
@@ -343,9 +345,8 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## 📧 Contact
 
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your Name](https://linkedin.com/in/yourprofile)
+- **Email**: contactayushdhiman@gmail.com
+- **LinkedIn**: [Ayush Dhiman](https://www.linkedin.com/in/ayushdhimann/)
 
 ## 🌟 Star History
 
@@ -353,4 +354,4 @@ If you find this project useful, please consider giving it a star ⭐
 
 ---
 
-**Built with ❤️ for multilingual document intelligence**
+**Built with ❤️ for multilingual document intelligence by Ayush Dhiman**
