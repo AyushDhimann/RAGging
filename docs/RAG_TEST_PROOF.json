@@ -1,0 +1,362 @@
+[
+  {
+    "question_id": 1,
+    "query": "গবেষণা নির্দেশিকায় কী কী বিষয় আছে?",
+    "language": "bn",
+    "type": "basic_retrieval",
+    "timestamp": "2025-10-17T18:26:46.143053",
+    "stages": {
+      "retrieval": {
+        "num_results": 10,
+        "top_3_scores": [
+          5.114533991356075,
+          3.2271797894238095,
+          0.38670165599999995
+        ],
+        "top_3_texts": [
+          "[PAGE 0]\n\nএপ্রিল ২০২৪ পর্যন্ত সংশোধিত\nমন্রিপরিষদ বিভাগের গবেষণা নির্দেশিকা, ২০১৭\n|\nমন্রিপরিষদ বিভাগ\nগবেষণা অধিশাখা\n(এপ্রিল ২০২৪ পর্যন্ত সংশোধিত)\n১\nরি ৬৫পর্প্ন\n\n[PAGE 1]",
+          "[PAGE 0]\n\nগণপ্রজাতন্ত্রী বাংলাদেশ সরকার -\nঅর্থ বিভাগ, অর্থ মন্ত্রণালয়\nপ্রশাসন ও সমন্বয় অনুবিভাগ\nপ্রশাসন-৪ শাখা\n৬/৬/৬/101,509%-০৫\nনম্বর- ০৭.০০.০০০০.০৮৪.১৯.০০১.২২.৪৭১ তারিখঃ এ টি\n১০ সেপ্টেম্বর ২০২৪\nঅফ",
+          "�়ক, লেজিসলেটিভ ও সংসদ বিষয়ক বিভাগ।\n৭] অফিস কপি।\n\n[PAGE 1]"
+        ],
+        "sources": [
+          {
+            "doc_id": "bn_Research Nirdeshika_628318a3",
+            "page": 0
+          },
+          {
+            "doc_id": "bn_471 (TO)_fa69abbb",
+            "page": 0
+          },
+          {
+            "doc_id": "bn_15092024_142_98b5f5b2",
+            "page": 1
+          },
+          {
+            "doc_id": "zh_P020230907694757200665_c57f3373",
+            "page": 15
+          },
+          {
+            "doc_id": "zh_P020230907695746624812_dd952cfe",
+            "page": 12
+          }
+        ]
+      },
+      "reranking": {
+        "num_results": 5,
+        "top_3_scores": [
+          5.114533991356075,
+          3.2271797894238095,
+          0.38670165599999995
+        ],
+        "score_improvement": 0.0
+      },
+      "answer_generation": {
+        "answer": "গবেষণা নির্দেশিকায় কী কী বিষয় আছে, তা এই ডকুমেন্টে উল্লেখ করা নেই।",
+        "answer_length": 68,
+        "sources_cited": 0,
+        "source_docs": []
+      }
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "question_id": 2,
+    "query": "What is the maximum budget allowed for research projects?",
+    "language": "en",
+    "type": "specific_detail",
+    "timestamp": "2025-10-17T18:27:05.782577",
+    "stages": {
+      "retrieval": {
+        "num_results": 10,
+        "top_3_scores": [
+          1.3694514162252478,
+          1.259530312184807,
+          1.158627137014286
+        ],
+        "top_3_texts": [
+          "{ Cfi'fusEI (Rationale of the I{csearch);\n(D rfm{6lr{ Ers-l, (Objcclivcs);\n(q) ffi \nFqtsq (tlxpcctcd Itcsult) (Oprional);\nnA \n\\j-*-l\n\n[PAGE 5]",
+          "到了全\n量发展和人民群众高品质生活的重要\n举措。人大助力总结消防法实施以来\n的经验和问题，贯彻预防为主、防消\n\n[PAGE 32]\n\n31\n2022／2／5  中国人大\nTHE PEOPLE’S CONGRESS OF CHINA \n本期策划·监督盘点\n法治加码 依法管账\n文 / 本刊记者  孟  伟\n2020年12月、2021年4月，十三届全国人大常委会先后表决通过并颁布实施\n了关于加强国有资产",
+          "以咬定青山不放松的执着担当，赓续根\n本政治制度的历史荣光。\nTHE PEOPLE’S CONGRESS OF CHINA \n1\n2021／12／20  中国人大\n\n[PAGE 3]"
+        ],
+        "sources": [
+          {
+            "doc_id": "bn_Research Nirdeshika_628318a3",
+            "page": 5
+          },
+          {
+            "doc_id": "zh_P020230907694757200665_c57f3373",
+            "page": 32
+          },
+          {
+            "doc_id": "zh_P020230907695746624812_dd952cfe",
+            "page": 3
+          },
+          {
+            "doc_id": "zh_P020230907695746624812_dd952cfe",
+            "page": 39
+          },
+          {
+            "doc_id": "zh_P020230907694757200665_c57f3373",
+            "page": 20
+          }
+        ]
+      },
+      "reranking": {
+        "num_results": 5,
+        "top_3_scores": [
+          1.3694514162252478,
+          1.259530312184807,
+          1.158627137014286
+        ],
+        "score_improvement": 0.0
+      },
+      "answer_generation": {
+        "answer": "The provided documents do not contain information about the maximum budget allowed for research projects. They discuss人大’s role in supervising and overseeing various areas, including finance, environmental protection, and legal implementation, but none specify budget limits for research.",
+        "answer_length": 288,
+        "sources_cited": 0,
+        "source_docs": []
+      }
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "question_id": 3,
+    "query": "عارضی ملازمین کی ملازمت کی مدت کب تک بڑھائی گئی ہے؟",
+    "language": "ur",
+    "type": "basic_retrieval",
+    "timestamp": "2025-10-17T18:27:28.899313",
+    "stages": {
+      "retrieval": {
+        "num_results": 10,
+        "top_3_scores": [
+          4.845516444064777,
+          4.753280736019717,
+          4.245974027120194
+        ],
+        "top_3_texts": [
+          "\n\n1251 \n 23\n\n1\n123\n \n\n\n[PAGE 146]\n\n[PAGE 147]\n\nسے کر“ نمی اردیس ناری کےا سےآکی می وج ےک ار دوش ا کے کر ہے پالئل ا ری\nت کرو ںکی طرز پہککیھے گئ ہیں۔ زسرنظ کاب ” نت ہکروشعراۓ رامپور“ کے مصن",
+          "[PAGE 0]\n\n4 :ہم 2024 ۸۷۸۰۸۱۔انا-انا18] 12\n2322 آزارترمت‌ریاست ول مہ\nےر پٹ (خبہتزل) ۱\nور وج .\nبررمراجزل۔8(١م/010د'‏ موہ 11 نتر 2024ء\nیت ۱\nخرت:۔ ۱\nد۔ گرہیزشلینگڑک(جزل) ۱\n2 ناب کائ یب راورڈآ ف راو یو\nےس ",
+          " ÃZ \nb\nƒb§Ï ÔZ X~ 7g , %ZŠ ÅkZ‰ Zzg }™[x»\n}™~ 7g , %ZŠ Å\nX\n91\n\n[PAGE 103]\n\nأردواوب میں لا تدراو قش او رکہاغیا لق ہیں ا نقضوں اورداستزائو کا ایک ذخرہ\nاردو ادب ہیں مم ود ۓےگمروہ زیادہ7 ا وقی الفطرت وا"
+        ],
+        "sources": [
+          {
+            "doc_id": "ur_shora e rampur_14594ea0",
+            "page": 146
+          },
+          {
+            "doc_id": "ur_12-Rabiul-Awal-2024_506d7dea",
+            "page": 0
+          },
+          {
+            "doc_id": "ur_fasana-e-ajaib final_120470d4",
+            "page": 103
+          },
+          {
+            "doc_id": "ur_Extension-of-Ahdoc-Employees_96372392",
+            "page": 0
+          },
+          {
+            "doc_id": "ur_12-Rabiul-Awal-2024_506d7dea",
+            "page": 1
+          }
+        ]
+      },
+      "reranking": {
+        "num_results": 5,
+        "top_3_scores": [
+          4.845516444064777,
+          4.753280736019717,
+          4.245974027120194
+        ],
+        "score_improvement": 0.0
+      },
+      "answer_generation": {
+        "answer": "عارضی ملازمین کی ملازمت کی مدت 31 اکتوبر 2024 تک بڑھائی گئی ہے۔",
+        "answer_length": 63,
+        "sources_cited": 0,
+        "source_docs": []
+      }
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "question_id": 4,
+    "query": "Who issued the order for extension of adhoc employees?",
+    "language": "en",
+    "type": "entity_extraction",
+    "timestamp": "2025-10-17T18:27:55.874755",
+    "stages": {
+      "retrieval": {
+        "num_results": 10,
+        "top_3_scores": [
+          2.5968224560285718,
+          2.337367047079703,
+          2.3235777876865638
+        ],
+        "top_3_texts": [
+          "以咬定青山不放松的执着担当，赓续根\n本政治制度的历史荣光。\nTHE PEOPLE’S CONGRESS OF CHINA \n1\n2021／12／20  中国人大\n\n[PAGE 3]",
+          "�、遵守法定\n程序，统筹运用法定监督方式，扎实有\n效开展监督工作，以实际行动迎接党的\n二十大胜利召开。\n\n[PAGE 20]\n\n19\n2022／2／5  中国人大\nTHE PEOPLE’S CONGRESS OF CHINA \n本期策划·监督盘点\n天地有大美而不言。美丽中国建设离不开每一个人的努力。美丽中国就是要\n使祖国大好河山都健康，使中华民族世世代代都健康。\n2021年，十三届全国人大常委会连",
+          "整和完善财政补贴政策，对一些重\n要领域的补贴项目，适时推出了一些\n改革措施。例如，不断完善农业补贴政\n\n[PAGE 37]\n\n36\n中国人大  2022／2／5\nTHE PEOPLE’S CONGRESS OF CHINA \n本期策划·监督盘点\n夯实中国之治的法治根基\n文 / 本刊记者  冯  添\n“唯奉法者强，唯明法者进。”2021年以来，全国人大常委会听取审议国务院\n关于“七五”普法决议贯彻落"
+        ],
+        "sources": [
+          {
+            "doc_id": "zh_P020230907695746624812_dd952cfe",
+            "page": 3
+          },
+          {
+            "doc_id": "zh_P020230907694757200665_c57f3373",
+            "page": 20
+          },
+          {
+            "doc_id": "zh_P020230907694757200665_c57f3373",
+            "page": 37
+          },
+          {
+            "doc_id": "zh_P020230907694757200665_c57f3373",
+            "page": 29
+          },
+          {
+            "doc_id": "zh_P020230907694757200665_c57f3373",
+            "page": 32
+          }
+        ]
+      },
+      "reranking": {
+        "num_results": 5,
+        "top_3_scores": [
+          2.5968224560285718,
+          2.337367047079703,
+          2.3235777876865638
+        ],
+        "score_improvement": 0.0
+      },
+      "answer_generation": {
+        "answer": "I couldn't find any relevant information in the document database to answer your question.",
+        "answer_length": 90,
+        "sources_cited": 0,
+        "source_docs": []
+      }
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "question_id": 5,
+    "query": "这个文件是关于什么的？",
+    "language": "zh",
+    "type": "basic_retrieval",
+    "timestamp": "2025-10-17T18:28:12.024735",
+    "stages": {
+      "retrieval": {
+        "num_results": 10,
+        "top_3_scores": [
+          0.361872624,
+          0.36119499,
+          0.36108671999999997
+        ],
+        "top_3_texts": [
+          "治理能力现代化目标进程中继续\n发挥重要作用，使各级各地制定法规、\n文件等必须遵法守法、高度严谨，不能\n任性施政。\n\n[PAGE 43]",
+          "播撒在青少年的心\n中，激励他们成长为担当民族复兴大任\n的时代新人，为全面建设社会主义现代\n化国家作出应有贡献。\n\n[PAGE 37]",
+          "不断开发高新技\n术产品，发挥规模效应，拓展经营领域，\n实现企业再次腾飞。 \n浙江仙琚制药股份有限公司\n广告\n\n[PAGE 58]"
+        ],
+        "sources": [
+          {
+            "doc_id": "zh_P020230907694757200665_c57f3373",
+            "page": 43
+          },
+          {
+            "doc_id": "zh_P020230907695746624812_dd952cfe",
+            "page": 37
+          },
+          {
+            "doc_id": "zh_P020230907694757200665_c57f3373",
+            "page": 58
+          },
+          {
+            "doc_id": "zh_P020230907695746624812_dd952cfe",
+            "page": 46
+          },
+          {
+            "doc_id": "zh_P020230907694757200665_c57f3373",
+            "page": 48
+          }
+        ]
+      },
+      "reranking": {
+        "num_results": 5,
+        "top_3_scores": [
+          0.36087456,
+          0.36054836399999995,
+          0.359792664
+        ],
+        "score_improvement": -0.0009980639999999652
+      },
+      "answer_generation": {
+        "answer": "This information does not specify the subject of the document. It references goals of governance modernization, inspiring young people, and regulations regarding rural talent [Document: zh_P020230907694757200665_c57f3373, Page: 43, 48].",
+        "answer_length": 236,
+        "sources_cited": 0,
+        "source_docs": []
+      }
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "question_id": 6,
+    "query": "What types of administrative documents are available in the database?",
+    "language": "en",
+    "type": "cross_lingual",
+    "timestamp": "2025-10-17T18:28:27.625659",
+    "stages": {
+      "retrieval": {
+        "num_results": 10,
+        "top_3_scores": [
+          2.584471996028572,
+          2.483801108450496,
+          2.3259986130797032
+        ],
+        "top_3_texts": [
+          "以咬定青山不放松的执着担当，赓续根\n本政治制度的历史荣光。\nTHE PEOPLE’S CONGRESS OF CHINA \n1\n2021／12／20  中国人大\n\n[PAGE 3]",
+          "{ Cfi'fusEI (Rationale of the I{csearch);\n(D rfm{6lr{ Ers-l, (Objcclivcs);\n(q) ffi \nFqtsq (tlxpcctcd Itcsult) (Oprional);\nnA \n\\j-*-l\n\n[PAGE 5]",
+          "�、遵守法定\n程序，统筹运用法定监督方式，扎实有\n效开展监督工作，以实际行动迎接党的\n二十大胜利召开。\n\n[PAGE 20]\n\n19\n2022／2／5  中国人大\nTHE PEOPLE’S CONGRESS OF CHINA \n本期策划·监督盘点\n天地有大美而不言。美丽中国建设离不开每一个人的努力。美丽中国就是要\n使祖国大好河山都健康，使中华民族世世代代都健康。\n2021年，十三届全国人大常委会连"
+        ],
+        "sources": [
+          {
+            "doc_id": "zh_P020230907695746624812_dd952cfe",
+            "page": 3
+          },
+          {
+            "doc_id": "bn_Research Nirdeshika_628318a3",
+            "page": 5
+          },
+          {
+            "doc_id": "zh_P020230907694757200665_c57f3373",
+            "page": 20
+          },
+          {
+            "doc_id": "zh_P020230907694757200665_c57f3373",
+            "page": 37
+          },
+          {
+            "doc_id": "zh_P020230907694757200665_c57f3373",
+            "page": 40
+          }
+        ]
+      },
+      "reranking": {
+        "num_results": 5,
+        "top_3_scores": [
+          2.584471996028572,
+          2.483801108450496,
+          2.3259986130797032
+        ],
+        "score_improvement": 0.0
+      },
+      "answer_generation": {
+        "answer": "I couldn't find any relevant information in the document database to answer your question.",
+        "answer_length": 90,
+        "sources_cited": 0,
+        "source_docs": []
+      }
+    },
+    "status": "SUCCESS"
+  }
+]

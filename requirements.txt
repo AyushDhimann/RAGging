@@ -1,0 +1,47 @@
+# Core dependencies
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Vector DB & Embeddings
+qdrant-client==1.7.0
+google-generativeai==0.3.2
+
+# PDF & OCR
+PyMuPDF==1.23.8
+pdf2image==1.16.3
+pytesseract==0.3.10
+Pillow==10.1.0
+
+# NLP & Retrieval
+rank-bm25==0.2.2
+tiktoken==0.5.2
+langdetect==1.0.9
+
+# LLM Integration
+ollama==0.1.6
+
+# Database
+aiosqlite==0.19.0
+
+# UI
+nicegui==1.4.16
+docutils==0.20.1
+
+# Utilities
+rich==13.7.0
+loguru==0.7.2
+httpx==0.25.2
+aiofiles==23.2.1
+watchdog==3.0.0
+
+# Evaluation
+ragas==0.1.1
+datasets==2.16.1
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.12.1
+ruff==0.1.9
+
